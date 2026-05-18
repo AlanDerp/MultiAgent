@@ -1,0 +1,29 @@
+global_planner,local_planner,status,packages_delivered,throughput_pph,collision_events,collision_events_agent_agent,collision_events_agent_static,collision_pair_steps,collision_steps,max_active_collision_pairs,first_collision_step,steps,simulation_time_sec,wall_time_sec,contact_end_errors,error
+LayeredAStar,DullPlanner,ok,10,60.0100016669445,17,17,0,10094,5261,2,63,6000,599.9,30.80423927307129,0,
+LayeredAStar,VirtualForcePlanner,ok,0,0.0,3,3,0,3,3,1,27,6000,599.9,33.18636631965637,0,
+LayeredAStar,RVOPlanner,error,0,0.0,0,0,0,0,0,0,,43,0.0,0.2386481761932373,0,"TypeError: Converting from sequence to b2Vec2, expected int/float arguments index 0"
+LayeredAStar,HRVOPlanner,ok,0,0.0,9928,7,9921,21334,5943,6,1,6000,599.9,33.42845320701599,0,
+LayeredAStar,DDPlanner,ok,0,0.0,11657,0,11657,29432,5981,6,19,6000,599.9,34.56812405586243,0,
+LayeredAStar,FLCPlanner,ok,0,0.0,12,6,6,27696,5943,5,22,6000,599.9,40.62011098861694,0,
+LayeredAStar,HybridHRVOForcePlanner,ok,0,0.0,2,2,0,6,6,1,24,6000,599.9,31.601732969284058,0,
+RRTStar,DullPlanner,ok,40,240.040006667778,33,33,0,4074,4047,2,56,6000,599.9,31.979815244674683,0,
+RRTStar,VirtualForcePlanner,ok,63,378.06301050175034,9,3,6,15,15,1,4173,6000,599.9,31.435504913330078,0,
+RRTStar,RVOPlanner,ok,64,384.0640106684448,18,17,1,29,29,1,42,6000,599.9,32.12517523765564,0,
+RRTStar,HRVOPlanner,ok,1,6.00100016669445,12832,1637,11195,22014,5989,6,2,6000,599.9,35.5566771030426,0,
+RRTStar,DDPlanner,ok,0,0.0,11657,0,11657,29432,5981,6,19,6000,599.9,34.71650815010071,0,
+RRTStar,FLCPlanner,ok,0,0.0,6,3,3,22545,5799,4,28,6000,599.9,38.303865909576416,0,
+RRTStar,HybridHRVOForcePlanner,ok,24,144.0240040006668,24,24,0,7430,4465,2,56,6000,599.9,32.2541880607605,0,
+MARRTStar,DullPlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.005101919174194,0,Timed out after 60.0 real seconds
+MARRTStar,VirtualForcePlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.00490689277649,0,Timed out after 60.0 real seconds
+MARRTStar,RVOPlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.0051429271698,0,Timed out after 60.0 real seconds
+MARRTStar,HRVOPlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.00495505332947,0,Timed out after 60.0 real seconds
+MARRTStar,DDPlanner,ok,0,0.0,11657,0,11657,29432,5981,6,19,6000,599.9,35.4835410118103,0,
+MARRTStar,FLCPlanner,ok,0,0.0,8,4,4,22211,5817,4,27,6000,599.9,39.336241006851196,0,
+MARRTStar,HybridHRVOForcePlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.00469493865967,0,Timed out after 60.0 real seconds
+INashRRT,DullPlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.00519394874573,0,Timed out after 60.0 real seconds
+INashRRT,VirtualForcePlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.00487017631531,0,Timed out after 60.0 real seconds
+INashRRT,RVOPlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.005101680755615,0,Timed out after 60.0 real seconds
+INashRRT,HRVOPlanner,ok,1,6.00100016669445,10083,1425,8658,17460,5976,5,2,6000,599.9,44.396730184555054,0,
+INashRRT,DDPlanner,ok,0,0.0,11656,0,11656,29433,5982,6,18,6000,599.9,36.265820026397705,0,
+INashRRT,FLCPlanner,ok,0,0.0,7,2,5,17623,5925,4,30,6000,599.9,37.80260705947876,0,
+INashRRT,HybridHRVOForcePlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,60.00604200363159,0,Timed out after 60.0 real seconds

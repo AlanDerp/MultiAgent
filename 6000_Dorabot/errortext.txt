@@ -1,0 +1,46 @@
+python simulator.py -t 1 --record_freq 5
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Local planner:  <class 'local_planners.virtual_force_planner.VirtualForcePlanner'>
+Global planner:  <class 'global_planners.rrtstar_planner.RRTStar'>
+---------------------------------------------------------------------
+The duration will be 60.0 seconds or 1.0 minutes in simulation world
+---------------------------------------------------------------------
+0.0 minutes passed in simulation world
+0 seconds passed in real world
+---------------------------------------------------------------------
+agent 0 search path via RRT* ... 
+Traceback (most recent call last):
+  File "/Users/ronald/Developer/Codes/6000_Dorabot/src/simulator.py", line 438, in <module>
+    start_simulator(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/ronald/Developer/Codes/6000_Dorabot/src/simulator.py", line 425, in start_simulator
+    simulator.run(show_visualisation)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ronald/Developer/Codes/6000_Dorabot/src/simulator.py", line 309, in run
+    self.step()
+    ~~~~~~~~~^^
+  File "/Users/ronald/Developer/Codes/6000_Dorabot/src/simulator.py", line 244, in step
+    self.__update_agent_state(agent, agent.ray_length_list)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ronald/Developer/Codes/6000_Dorabot/src/simulator.py", line 318, in __update_agent_state
+    agent.plan()
+    ~~~~~~~~~~^^
+  File "/Users/ronald/Developer/Codes/6000_Dorabot/src/agents/naive_agent.py", line 45, in plan
+    temp_sequence_of_poses = self.global_planner.compute_path(
+            self.position,
+            self.destination_location,
+            self.static_environment,
+            self.perception_module)
+  File "/Users/ronald/Developer/Codes/6000_Dorabot/src/global_planners/rrtstar_planner.py", line 85, in compute_path
+    interaction_listener()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/ronald/Developer/Codes/6000_Dorabot/src/global_planners/rrtstar_helper.py", line 233, in interaction_listener
+    pygame.display.flip()
+    ~~~~~~~~~~~~~~~~~~~^^
+pygame.error: video system not initialized
+
+
+cd src
+python3 simulator.py -t 1 --record --record_freq 5
+python3 simulator.py -t 1 --record --record_freq 5

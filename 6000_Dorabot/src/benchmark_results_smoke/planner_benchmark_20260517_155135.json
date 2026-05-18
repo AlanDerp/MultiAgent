@@ -1,0 +1,21 @@
+[
+  {
+    "global_planner": "LayeredAStar",
+    "local_planner": "VirtualForcePlanner",
+    "status": "ok",
+    "error": "",
+    "simulation_time_sec": 0.8,
+    "steps": 5,
+    "packages_delivered": 0,
+    "throughput_pph": 0.0,
+    "wall_time_sec": 0.017582178115844727,
+    "collision_events": 0,
+    "collision_events_agent_agent": 0,
+    "collision_events_agent_static": 0,
+    "collision_pair_steps": 0,
+    "collision_steps": 0,
+    "max_active_collision_pairs": 0,
+    "first_collision_step": null,
+    "contact_end_errors": 0
+  }
+]

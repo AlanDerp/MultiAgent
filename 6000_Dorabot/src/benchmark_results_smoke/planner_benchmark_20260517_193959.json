@@ -1,0 +1,21 @@
+[
+  {
+    "global_planner": "MARRTStar",
+    "local_planner": "HRVOPlanner",
+    "status": "timeout",
+    "error": "Timed out after 2.0 real seconds",
+    "simulation_time_sec": 0.0,
+    "steps": null,
+    "packages_delivered": 0,
+    "throughput_pph": 0.0,
+    "wall_time_sec": 2.012486696243286,
+    "collision_events": 0,
+    "collision_events_agent_agent": 0,
+    "collision_events_agent_static": 0,
+    "collision_pair_steps": 0,
+    "collision_steps": 0,
+    "max_active_collision_pairs": 0,
+    "first_collision_step": null,
+    "contact_end_errors": 0
+  }
+]

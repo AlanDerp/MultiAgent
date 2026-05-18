@@ -1,0 +1,2 @@
+global_planner,local_planner,status,packages_delivered,throughput_pph,collision_events,collision_events_agent_agent,collision_events_agent_static,collision_pair_steps,collision_steps,max_active_collision_pairs,first_collision_step,steps,simulation_time_sec,wall_time_sec,contact_end_errors,error
+MARRTStar,HRVOPlanner,timeout,0,0.0,0,0,0,0,0,0,,,0.0,2.012486696243286,0,Timed out after 2.0 real seconds

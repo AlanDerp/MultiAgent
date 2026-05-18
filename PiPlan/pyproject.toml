@@ -1,0 +1,23 @@
+[project]
+name = "piplan"
+version = "0.1.0"
+description = "Pi0.5-first multi-agent warehouse planning runtime migrated from 6000_Dorabot."
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23",
+]
+
+[project.optional-dependencies]
+pi05 = [
+  "torch",
+]
+dev = [
+  "pytest>=7",
+]
+
+[project.scripts]
+piplan = "piplan.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

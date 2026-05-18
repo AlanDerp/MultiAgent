@@ -1,0 +1,8 @@
+legacy_expert:
+  dorabot_root: ../6000_Dorabot
+  global_planner: RRTStar
+  local_planner: VirtualForcePlanner
+  record_mode: joint_bc
+  record_freq: 10
+  include_global_state: true
+  output: data/expert/raw/rrt_vf.jsonl

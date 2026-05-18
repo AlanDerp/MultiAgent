@@ -1,0 +1,38 @@
+map:
+  width: 20
+  height: 20
+  obstacles: [[9.0, 9.0, 2.0, 2.0]]
+agents:
+  count: 4
+  cruise_speed: 1.5
+  radius: 0.35
+ports:
+  input_capacity: 2
+  output_capacity: 2
+  input:
+    count: 2
+  output:
+    count: 2
+tasks:
+  initial_count: 16
+runtime:
+  dt: 0.2
+  steps: 100
+physics:
+  velocity_iterations: 8
+  position_iterations: 3
+  wall_thickness: 0.1
+policy:
+  mode: mock
+  horizon_sec: 2.0
+  action_dt: 0.2
+  max_speed: 1.5
+control:
+  max_speed: 1.5
+  safety_radius: 0.75
+  wall_clearance: 0.15
+  lookahead_time: 0.35
+  replan_threshold: 2
+observation:
+  image_size: 224
+  token_dim: 15

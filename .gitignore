@@ -1,0 +1,62 @@
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Generated Dorabot/PiPlan datasets and samples
+6000_Dorabot/src/data_samples/
+6000_Dorabot/src/converted/
+PiPlan/data/
+PiPlan/outputs/
+lerobot/outputs/
+
+# Training/checkpoint outputs and experiment logs
+outputs/
+**/outputs/
+**/checkpoints/
+**/pretrained_model/
+**/training_state/
+**/wandb/
+**/runs/
+**/.cache/
+
+# Large model and dataset artifacts
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.npy
+*.npz
+*.arrow
+*.parquet
+*.jsonl
+*.mp4
+*.webm
+*.avi
+
+# Keep small upstream LeRobot test fixtures if this tree is tracked as one repo.
+!lerobot/tests/artifacts/**/*.safetensors
+
+# Local scratch files
+tmp/
+temp/
+*.log

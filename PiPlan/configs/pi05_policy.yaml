@@ -1,0 +1,13 @@
+policy:
+  mode: pi05
+  model_id: lerobot/pi05_base
+  device: null
+  lerobot_path: ../lerobot/src
+  horizon_sec: 2.0
+  action_dt: 0.2
+  action_output_mode: raw_velocity
+observation:
+  max_agents: 16
+  image_size: 224
+  state_dim: 163
+  action_dim: 20

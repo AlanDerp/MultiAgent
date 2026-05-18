@@ -1,0 +1,7 @@
+python scripts/train_pi05.py \
+  --dataset-repo-id local/piplan-dorabot-joint \
+  --output-dir PiPlan/outputs/pi05_dorabot_joint \
+  --policy-pretrained-path lerobot/pi05_base \
+  --steps 3000 \
+  --batch-size 32 \
+  --device mps

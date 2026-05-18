@@ -1,0 +1,34 @@
+{
+    "environment": {
+        "unloading_ports_process_time": 2,
+        "width_in_meters": 20,
+        "loading_ports_process_time": 2,
+        "num_unloading_ports": 2,
+        "temp_ports_number": 5,
+        "top_left_corner": {
+            "y": 0,
+            "x": 0
+        },
+        "height_in_meters": 20,
+        "num_loading_ports": 2,
+        "resolution": 2
+    },
+    "visualization": {
+        "pygame_screen_height": 900,
+        "pixels_per_meter": 30,
+        "pygame_screen_width": 750,
+        "agents": true
+    },
+    "agents": {
+        "pi_divide_by_max_angular_velocity": 0.5,
+        "cruise_speed": 5,
+        "dimension": 0.5,
+        "number": 10
+    },
+    "simulator": {
+        "use_polygon_workspace": false,
+        "use_default_setup": true,
+        "use_gridmap": true,
+        "steps_per_sec": 30
+    }
+}
