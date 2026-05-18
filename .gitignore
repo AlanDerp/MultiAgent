@@ -57,6 +57,7 @@ outputs/
 !lerobot/tests/artifacts/**/*.safetensors
 
 # Local scratch files
+clean_exports/
 tmp/
 temp/
 *.log
